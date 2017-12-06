@@ -21,8 +21,8 @@ export class TodosProvider {
 
     this.db = new PouchDB('cloudo');
 
-    //this.remote = 'http://localhost:5984/cloudo';
-    this.remote = 'http://192.168.0.175:5984/cloudo';
+    this.remote = 'http://localhost:5984/cloudo';
+    //this.remote = 'http://192.168.0.175:5984/cloudo';
     //this.remote = 'http://desktop-bk11tps:5984/cloudo';
    
 
